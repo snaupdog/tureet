@@ -5,8 +5,10 @@ Servo servoY;
 
 void setup() {
   Serial.begin(9600);
-  servoX.attach(10); // Attach servo X to pin 9
-  servoY.attach(9); // Attach servo Y to pin 10
+  servoX.attach(10);
+  servoY.attach(9);  
+  servoY.write(90);
+  servoX.write(90);
 }
 
 void loop() {
