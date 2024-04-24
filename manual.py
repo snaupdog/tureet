@@ -1,6 +1,6 @@
 import tkinter as tk
 import math
-import serial  # For communication with the servo controller
+import serial
 
 
 def map_value(value, in_min, in_max, out_min, out_max):
@@ -27,7 +27,7 @@ def motion(event):
 # Function to update servos
 def update_servos():
     print(f"X{180 - int(servo_x_angle)}Y{int(servo_y_angle)}\n")
-    # ser.write(f"X{180 - int(servo_x_angle)}Y{int(servo_y_angle)}\n".encode())
+    set.write(f"X{180 - int(servo_x_angle)}Y{int(servo_y_angle)}\n".encode())
     pass
 
 
@@ -50,6 +50,6 @@ last_y = 0
 servo_x_angle = 90  # Initial angle for servo X
 servo_y_angle = 90  # Initial angle for servo Y
 
-# ser = serial.Serial("/dev/cu.usbserial-1420", 9600, timeout=0.5)
+set = serial.Serial("/dev/cu.usbserial-110", 9600, timeout=0)
 
 root.mainloop()
