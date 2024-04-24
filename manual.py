@@ -50,6 +50,6 @@ last_y = 0
 servo_x_angle = 90  # Initial angle for servo X
 servo_y_angle = 90  # Initial angle for servo Y
 
-set = serial.Serial("/dev/cu.usbserial-140", 9600, timeout=0.5)
+set = serial.Serial("/dev/cu.usbserial-110", 9600, timeout=0)
 
 root.mainloop()
