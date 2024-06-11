@@ -30,10 +30,10 @@ This Python script provides a graphical user interface (GUI) using Tkinter, allo
 ### Prerequisites
   - Arduino IDE
   - Python 3.x
-  - OpenCV (cv2 module)
+  - OpenCV ('cv2' module)
   - Tkinter (usually included with Python installations)
   - Numpy
-  - Serial library (pyserial)
+  - Serial library ('pyserial')
 
 ### Arduino Setup
   - Connect the servo motors to the Arduino (servoX to pin 10, servoY to pin 9).
