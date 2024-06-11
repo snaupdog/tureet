@@ -21,7 +21,7 @@ This Python script provides a graphical user interface (GUI) using Tkinter, allo
   - The Arduino receives commands via serial communication.
   - It updates the servo positions to point towards the detected face.
 
-## Manual Control
+### Manual Control
 - The Tkinter GUI allows manual control of the servo positions using mouse movements.
 - It maps mouse coordinates to servo angles and sends the commands to the Arduino.
 
