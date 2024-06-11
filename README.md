@@ -57,5 +57,3 @@ This Python script provides a graphical user interface (GUI) using Tkinter, allo
 ## Note
   - Ensure the correct serial port is specified in the Python scripts (e.g., /dev/cu.usbserial-140 or /dev/cu.usbserial-110).
   - Adjust the servo mapping ranges as needed to fit your specific setup and servo motor capabilities.
-This project demonstrates a practical application of computer vision and robotics by integrating software and hardware to achieve a face tracking and locking system.
-
