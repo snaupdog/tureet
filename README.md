@@ -1,4 +1,4 @@
-# Face Tracking and Locking System with Servo Control
+# Face Tracking and Target Locking System with Servo Control
 This project implements a face tracking and locking system using OpenCV for face detection and an Arduino for controlling servo motors. The system consists of three main components: Arduino code for servo control, a Python script for face tracking, and a manual control interface using Tkinter.
 
 ## Components and Their Functions
